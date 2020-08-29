@@ -6,6 +6,9 @@ Congruence:
 
 """
 Modular Multiplicative Inverse:
+ - Equation without both sides modded, a * x + m * y = 1
+ - Constraint:  GCD(a,m) = 1
+ - GOAL: FIND 'x', the modular multiplictive inverse of 'a'
  - a * x is congruent to 1, and only has 1 modulus m
  - x is simply a^-1
 """
@@ -17,7 +20,6 @@ Modular Multiplicative Inverse:
  - IMPORTANT ` ***** "gcd(a,m)=1 is also the condition for the modular inverse to exist." *****
  - An equation of the above form is know as a Linear Diophantine Equation "LDA" 
  - LDA is an equation with format -> "ax + by = c"
-
 """
  
 
