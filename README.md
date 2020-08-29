@@ -4,9 +4,9 @@
 
 
 ## Resources Used Per Quest
- 1. [Modular Inverse] (https://cp-algorithms.com/algebra/module-inverse.html#:~:text=Practice%20Problems-,Definition,x%20simply%20with%20a%E2%88%921.)
+ 1. [Modular Inverse](https://cp-algorithms.com/algebra/module-inverse.html#:~:text=Practice%20Problems-,Definition,x%20simply%20with%20a%E2%88%921.)
 
 ## Task List
  - [ ] Update Readme
 
-** Each number to the left of the resources used applies to the given quest listed above. **
+** Each number to the left of the resources used, applies to the given quest listed above. **
