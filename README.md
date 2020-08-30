@@ -14,8 +14,8 @@
  1. Euclidean Algorithm, Extended Euclidean Algorithm, Modular Inverse, Congruence
 
 ## Notes
-**Each number to the left of the resources used, applies to the given quest listed above.**
+- **Each number to the left of the resources used, applies to the given quest listed above.**
 
-**Code in this repository may, and probably will be left incomplete because the learning outcomes have been accomplished.**
+- **Code in this repository may, and probably will be left incomplete because the learning outcomes have been accomplished.**
 
-**The code in this repository is in no way meant to be representative of what my code looks like "on the job".**
+- **The code in this repository is in no way meant to be representative of what my code looks like "on the job".**
