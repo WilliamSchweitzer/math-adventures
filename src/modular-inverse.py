@@ -31,6 +31,7 @@ if __name__ == '__main__':
  print('Input second coprime number "m" (then press enter)... ')
  m = int(input())
  given_a = a
+ given_m = m
 
  remainder = -1
  equations = []
@@ -44,7 +45,7 @@ if __name__ == '__main__':
 
   print('dividend <-- divisor(quotient) <-- remainder')
   print(str(dividend) + ' <-- ' + str(divisor) + '(' + str(quotient) + ')' + '<--' + str(remainder))
-  input()
+  # used for testing - input()
 
   equations.append([divisor, dividend, quotient, remainder])
 
@@ -56,6 +57,16 @@ if __name__ == '__main__':
 
  eea_result = {}
 
+# Recursion can be used... so can loops... so can dict comprehensions
+# Everything under here has been slightly rushed because I understand the concept now.
+# The code works in a very simple way, NOT for all test cases.
+
+'''
+To update try:
+    1. Use recursion
+    2. Account for positive and negative values in 'equations' (don't just append 1)
+    3. Try possibe solution to sum values of key =  13 % 10
+'''
 for equation in reversed(equations):
  try:
   eea_result[equation[0]].append(1)
@@ -80,5 +91,11 @@ for equation in reversed(equations):
 
  print(eea_result)
 
+ result = 0
+
+ for x in eea_result:
+  if x != given_m and x != 1:
+   result = len(eea_result[x])
+
  print('----------')
- print('The Multiplicative Modular inverse is: ' + str(eea_result[given_a]))
+ print('The Multiplicative Modular inverse is: ' + str(result))

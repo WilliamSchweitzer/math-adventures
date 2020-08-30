@@ -1,6 +1,6 @@
 # math-adventures
 ## Quests given by npcs online.
- 1. Modular Multiplicative Inverse
+ 1. Modular Multiplicative Inverse [x] QUEST COMPLETEe
 
 
 ## Resources Used Per Quest
@@ -9,5 +9,9 @@
 ## Task List
  - [ ] Update Readme
  - [ ] Use recursion in Modular Multiplicative Inverse
+ - [ ] Update modular-inerse.py to actually work
+
+## Learning outcomes
+ 1. Euclidean Algorithm, Extended Euclidean Algorithm, Modular Inverse
 
 ** Each number to the left of the resources used, applies to the given quest listed above. **
