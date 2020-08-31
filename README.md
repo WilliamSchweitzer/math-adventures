@@ -12,6 +12,10 @@
 
 ## Learning outcomes
  1. Euclidean Algorithm, Extended Euclidean Algorithm, Modular Inverse, Congruence
+   ```
+   - Given coprime numbers 'a' and 'm', [ a*x mod m is congruent to 1 mod m ]
+   - 'x' is found using the Extended Euclidean Algorithm
+   ```
 
 ## Notes
 - **Each number to the left of the resources used, applies to the given quest listed above.**
