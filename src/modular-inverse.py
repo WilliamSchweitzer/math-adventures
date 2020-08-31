@@ -89,6 +89,8 @@ for equation in reversed(equations):
   eea_result[equation[3]] = []
   eea_result[equation[3]].append(1) 
 
+# Print resulting data dictionary
+
  print(eea_result)
 
  result = 0
@@ -97,5 +99,5 @@ for equation in reversed(equations):
   if x != given_m and x != 1:
    result = len(eea_result[x])
 
- print('----------')
- print('The Multiplicative Modular inverse is: ' + str(result))
+# print('----------')
+# print('The Multiplicative Modular inverse is: ' + str(result))
