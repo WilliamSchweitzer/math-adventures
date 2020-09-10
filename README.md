@@ -12,7 +12,7 @@
 ## Resources Used Per Quest
  1. [Modular Inverse](https://cp-algorithms.com/algebra/module-inverse.html#:~:text=Practice%20Problems-,Definition,x%20simply%20with%20a%E2%88%921.) | [Congruence](https://mathworld.wolfram.com/Congruence.html#:~:text=If%20two%20numbers%20and%20have,modulo%20%22%20is%20written%20mathematically%20as) | [Extended Euclidean Algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) | [Extended Euclidean Example](https://www.youtube.com/watch?v=6KmhCKxFWOs) | [Fermat's Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) 
 
- 2. My Cyber Security Course
+ 2. My Cyber Security Course - Cyber Defense Overview - Course number CS 5155 
 
 ## Todo
  - [ ] Use recursion in Modular Multiplicative Inverse
