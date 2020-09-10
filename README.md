@@ -21,3 +21,5 @@
 - **Code in this repository may, and probably will be left incomplete because the learning outcomes have been accomplished.**
 
 - **The code in this repository is in no way meant to be representative of what my code looks like "on the job".** 
+
+- **NPC stands for a "non-play character". Hence, this repository is just a collection of my personal math adventures.**
