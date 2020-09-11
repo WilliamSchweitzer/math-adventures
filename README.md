@@ -16,6 +16,7 @@
  2. My Cyber Security Course - Cyber Defense Overview - Course number CS 5155 
 
 ## Todo - In order of priority
+ - [ ] Catch error thrown in "check congrence" function
  - [ ] Support different mod values in "check congruence" function
  - [ ] Complete successors.py
  - [ ] Use recursion in Modular Multiplicative Inverse

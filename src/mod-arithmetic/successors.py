@@ -57,6 +57,8 @@ modular_add(1,7,19)
 # IMPORTANT -> Congruence operator denotes equivalence in mod arithmetic, if difference is multiple of 3
 
 def check_congruence(x1, m1, x2, m2):
+ diff = 0
+
  try:
   if m1 != m2:
    print('Mod values are not equal!')
@@ -65,15 +67,20 @@ def check_congruence(x1, m1, x2, m2):
   second_value = modular_add(int(x2),0,int(m2))
   
   if first_value > second_value:
-   result = first_value - second_value
-  elif: first_value < second_value:
-   result = second_value - first_value
+   diff = first_value - second_value
+  elif first_value < second_value:
+   diff = second_value - first_value
   else:
    print('Equal')
 
-   for x in range(0,50):
-    if (result - m1) == 0:
-     print('Equal')
+  for x in range(0,1000):
+   val_check = int(diff) - int(x*m1)
+   print(val_check)
+   if int(val_check) == 0:
+    print('Equal')
+   elif int(val_check) < 0:
+    print('Iteration passed zero')
+    
 
  except:
   print('Mod value may not have been the same?')
