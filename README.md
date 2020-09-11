@@ -16,6 +16,7 @@
  2. My Cyber Security Course - Cyber Defense Overview - Course number CS 5155 
 
 ## Todo - In order of priority
+ - [ ] Support different mod values in "check congruence" function
  - [ ] Complete successors.py
  - [ ] Use recursion in Modular Multiplicative Inverse
  - [ ] Update modular-inerse.py to actually work

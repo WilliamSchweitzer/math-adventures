@@ -63,7 +63,18 @@ def check_congruence(x1, m1, x2, m2):
 
   first_value = modular_add(int(x1),0,int(m1))
   second_value = modular_add(int(x2),0,int(m2))
-  print('Always true if mod is the same')
+  
+  if first_value > second_value:
+   result = first_value - second_value
+  elif: first_value < second_value:
+   result = second_value - first_value
+  else:
+   print('Equal')
+
+   for x in range(0,50):
+    if (result - m1) == 0:
+     print('Equal')
+
  except:
   print('Mod value may not have been the same?')
 
@@ -72,3 +83,13 @@ check_congruence(7, 3, 10, 3)
 
 print('Test case: m1,m2 are different')
 check_congruence(7, 3, 10, 4)
+
+print('Sample test cases below -> Equality checking')
+print('____________________________________________')
+
+check_congruence(4211,123,1432,123)
+
+print('Above result should be no!')
+print('__________________________')
+
+check_congruence(3813,123,1830,123)
