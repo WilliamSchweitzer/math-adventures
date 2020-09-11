@@ -1,6 +1,6 @@
 # math-adventures (Quests given by npcs online.)
  1. Modular Multiplicative Inverse - :satisfied: QUEST COMPLETE :triumph:
- 2. Modular Arithmetic
+ 2. Modular Arithmetic - In Progress...
 
 ## Learning outcomes
  1. Euclidean Algorithm, Extended Euclidean Algorithm, Modular Inverse, Congruence, **Fermat's Theorem**
