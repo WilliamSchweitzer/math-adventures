@@ -17,3 +17,12 @@ Prime number:
  - are invertible
  - are assosiative
 """
+
+"""
+Additional notes:
+ Consider p = 13 (0-12)
+ Consider generator 7
+ g = 7 is a generator because it covers all #'s from 0-12
+ When g^n mod p = result
+ When n goes from 0->inf, the results will cover all possible values of prime p
+"""
