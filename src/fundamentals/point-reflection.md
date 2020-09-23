@@ -1,0 +1,9 @@
+- point reflection is equal to the differnce between two points times 2
+- so dx = px - qx
+- dy = py - qy
+- so the reflection is just that times two
+- reflection he 2*(dx)
+- However, if you want to reflect over the x/y axis then you must then subtract px/py
+- resulting in differing values say rx/ry = reflected points
+- rx = 2dx - qx
+- ry = 2dy - qy
